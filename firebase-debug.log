@@ -1,0 +1,74 @@
+[debug] [2018-04-03T21:28:20.658Z] ----------------------------------------------------------------------
+[debug] [2018-04-03T21:28:20.660Z] Command:       /usr/local/bin/node /Users/erikaweil/Desktop/fellowship/battleship/node_modules/.bin/firebase serve --only functions,hosting
+[debug] [2018-04-03T21:28:20.661Z] CLI Version:   3.17.7
+[debug] [2018-04-03T21:28:20.661Z] Platform:      darwin
+[debug] [2018-04-03T21:28:20.661Z] Node Version:  v7.10.0
+[debug] [2018-04-03T21:28:20.661Z] Time:          Tue Apr 03 2018 16:28:20 GMT-0500 (CDT)
+[debug] [2018-04-03T21:28:20.661Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-03T21:28:20.673Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-03T21:28:20.674Z] > authorizing via signed-in user
+[debug] [2018-04-03T21:28:20.676Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/battleship-3a46c  
+  
+ Tue Apr 03 2018 16:28:20 GMT-0500 (CDT)
+[debug] [2018-04-03T21:28:20.910Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-03T21:28:20.911Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/battleship-3a46c/tokens  
+  
+ Tue Apr 03 2018 16:28:20 GMT-0500 (CDT)
+[debug] [2018-04-03T21:28:21.137Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-03T21:28:21.138Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/battleship-3a46c  
+  
+ Tue Apr 03 2018 16:28:21 GMT-0500 (CDT)
+[debug] [2018-04-03T21:28:21.272Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/erikaweil/Desktop/fellowship/battleship'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-03T21:28:21.969Z] Fetching environment
+[debug] [2018-04-03T21:28:21.972Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/664271444561:getServerAppConfig  
+  
+ Tue Apr 03 2018 16:28:21 GMT-0500 (CDT)
+[debug] [2018-04-03T21:28:21.972Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/664271444561/clients/_:getWebAppConfig  
+  
+ Tue Apr 03 2018 16:28:21 GMT-0500 (CDT)
+[debug] [2018-04-03T21:28:22.166Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-03T21:28:22.167Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-03T21:28:22.254Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-03T21:28:23.740Z] Parsing function triggers
+[warn] ⚠  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-04-03T21:28:23.837Z] Error during trigger parsing:  Error occurred while parsing your function triggers.
+
+/Users/erikaweil/Desktop/fellowship/battleship/fire/index.js:1
+(function (exports, require, module, __filename, __dirname) { import * as firebase from 'firebase'
+                                                              ^^^^^^
+SyntaxError: Unexpected token import
+    at createScript (vm.js:53:10)
+    at Object.runInThisContext (vm.js:95:10)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/erikaweil/Desktop/fellowship/battleship/functions/index.js:2:21)
+[warn] ⚠  functions: Error from emulator. Error occurred while parsing your function triggers.
+
+/Users/erikaweil/Desktop/fellowship/battleship/fire/index.js:1
+(function (exports, require, module, __filename, __dirname) { import * as firebase from 'firebase'
+                                                              ^^^^^^
+SyntaxError: Unexpected token import
+    at createScript (vm.js:53:10)
+    at Object.runInThisContext (vm.js:95:10)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/erikaweil/Desktop/fellowship/battleship/functions/index.js:2:21)
+[debug] [2018-04-03T21:28:23.838Z] 
